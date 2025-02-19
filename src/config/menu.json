@@ -1,0 +1,19 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Our Work",
+      "url": "/our-work"
+    }
+  ],
+
+  "footer": [
+    {
+      "name": "Our Work",
+      "url": "/our-work"
+    }
+  ]
+}

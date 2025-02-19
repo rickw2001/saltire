@@ -1,0 +1,30 @@
+{
+  "site": {
+    "title": "Saltire Excavation",
+    "base_url": "https://saltire-excavation.com",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.ico",
+    "logo": "/images/se/logo-no-background-2.webp",
+    "logo_width": "47",
+    "logo_height": "160",
+    "logo_text": "Saltire Excavation"
+  },
+
+  "params": {
+    "footer_description": "",
+    "email": "info@saltire-excavation.com",
+    "location": "Melbourne, Australia",
+    "phone": "+61 123 456 789",
+    "contact_form_action": "#",
+    "copyright": "Copyright © 2025 Saltire Excavation"
+},
+
+  "metadata": {
+    "meta_author": "walkerlabs",
+    "meta_image": "/images/se/logo.png",
+    "meta_description": "saltire-excavation is a premium construction and excavation contractor in Melbourne, Australia.",
+    "meta_keywords": ["excavation", "contractor", "excellence", "Melbourne", "Australia"],
+    "meta_application_name": "saltire-excavation"
+  }
+}
