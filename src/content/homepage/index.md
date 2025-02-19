@@ -5,7 +5,7 @@ banner:
   title: '<span style="color: rgb(31, 9, 255);" class="text-primary text-accent text-shadow-[0px_1px_2px] shadow-accent/5"> Excavation <span class="text-accent">excellence</span> in Melbourne and beyond...</span>'
   title_size: "text-4xl md:text-6xl"
   content: "<strong>We are a family-owned and operated business with over 20 years of experience in the construction industry. We pride ourselves on providing a professional and reliable service to all our clients.</strong>"  
-  image: /images/se/banner-logo.svg  
+  image: /images/se/logo.webp  
 
 sections:
   - title: Success begins with a <span class="text-accent">solid foundation</span>
