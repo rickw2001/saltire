@@ -2,10 +2,10 @@
 # Does not contain meta customizations because it is the homepage and config is already set in the config file
 
 banner:
-  title: '<span style="color: rgb(31, 9, 255);" class="text-primary text-accent text-shadow-[0px_1px_2px] shadow-accent/5"> Excavation <span class="text-accent">excellence</span> in Melbourne and beyond...</span>'
+  title: '<span style="color: rgb(31, 9, 255);" class="text-primary text-accent text-shadow-[0px_1px_2px] shadow-accent/5"> Excavation <span class="text-accent">excellence</span> in the Gold Coast and beyond...</span>'
   title_size: "text-4xl md:text-6xl"
-  content: "<strong>We are a family-owned and operated business with over 20 years of experience in the construction industry. We pride ourselves on providing a professional and reliable service to all our clients.</strong>"  
-  image: /images/se/logo.webp  
+  content: "<strong>We are a fully licensed demolition contractor located on the Gold Coast, QLD. We also carry out bulk earthworks, site cuts, final trim and drainages works. We pride ourselves on providing a professional and reliable service to all our clients.</strong>"  
+  image: /images/se/logo-no-text.png  
 
 sections:
   - title: Success begins with a <span class="text-accent">solid foundation</span>

@@ -1,0 +1,54 @@
+---
+import PageHeader from "@/components/core/PageHeader.astro";
+import Base from "@/layouts/Base.astro";
+import { getEntry } from "astro:content";
+import { Image } from "astro:assets";
+import Cta from "../layouts/partials/Cta.astro";
+
+const about = await getEntry("about-us", "index");
+const page_data = {
+  ...about.data,
+  content: about.body,
+};
+const { Content } = await about.render();
+let backgroundUrl = 'url(/images/se/banner-3.webp)'
+const call_to_action = about.data.call_to_action;
+---
+<style define:vars={{ backgroundUrl }}>
+  section.animate-fade-in {
+    background-image: var(--backgroundUrl);
+    background-size: cover;
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+    background-position: 25% 75%;
+  }
+  img {
+    border-radius: 0.75rem;
+  }
+</style>
+<Base
+  entry_keys={["our-work", "index"]}
+>
+  <section class="py-16 animate-fade-in">
+    <div class="container">
+      <div class="mx-auto max-w-[768px]">
+        <PageHeader page_data={page_data} />
+      </div>
+    </div>
+  </section>
+  <section class="py-16">
+    <div class="container justify-items-center">
+    <Image
+      src=/images/se/saltire-dean.webp
+      alt="saltire Dean"
+      width=580
+      height=420
+      alt="saltire excavation"
+    />
+    </div>
+    <div class="container">
+      <Content />
+      <Cta {...call_to_action} />
+    </div>
+  </section>
+</Base>

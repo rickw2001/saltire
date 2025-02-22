@@ -10,7 +10,7 @@ const homepage = await getEntry("homepage", "index");
 // console.log(homepage);
 const { banner, sections, features, testimonial } = homepage.data;
 const call_to_action = homepage.data.call_to_action;
-let backgroundUrl = 'url(/images/se/IMG-20250217-WA0004.webp)'
+let backgroundUrl = 'url(/images/se/excavator-2196826_1920.jpg)'
 ---
 <style define:vars={{ backgroundUrl }}>
   section.animate-fade-in {
@@ -18,6 +18,7 @@ let backgroundUrl = 'url(/images/se/IMG-20250217-WA0004.webp)'
     background-size: cover;
     background-color: rgba(255,255,255,0.6);
     background-blend-mode: lighten;
+    background-position: 50% 50%;
   }
 </style>
 <Base>
@@ -38,9 +39,9 @@ let backgroundUrl = 'url(/images/se/IMG-20250217-WA0004.webp)'
     )
   }
   <!-- key features -->
+  <hr>
   <Features features={features} />
+  <hr><br><br>
   <!-- testimonial -->
   <Testimonial testimonial={testimonial} />
-  <!-- <Content /> -->
-  <Cta {...call_to_action} />
 </Base>

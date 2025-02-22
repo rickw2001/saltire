@@ -1,0 +1,21 @@
+---
+// src/components/Lightbox.astro
+
+import "simple-lightbox/dist/simpleLightbox.css"; // Import lightbox styles
+import SimpleLightbox from "simple-lightbox";
+
+---
+<script is:inline>
+  const lightbox = new SimpleLightbox('.gallery a'); // Select anchor tags within the gallery
+  lightbox.refresh();
+</script>
+<!-- HTML structure for the lightbox -->
+<div class="gallery">
+  <a href="/path/to/image1.jpg">
+    <img src="/path/to/image1-thumbnail.jpg" alt="Image 1" />
+  </a>
+  <a href="/path/to/image2.jpg">
+    <img src="/path/to/image2-thumbnail.jpg" alt="Image 2" />
+  </a>
+  <!-- Add more images as needed -->
+</div>

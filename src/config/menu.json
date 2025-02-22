@@ -7,6 +7,10 @@
     {
       "name": "Our Work",
       "url": "/our-work"
+    },
+    {
+      "name": "About Us",
+      "url": "/about-us"
     }
   ],
 
@@ -14,6 +18,10 @@
     {
       "name": "Our Work",
       "url": "/our-work"
+    },
+    {
+      "name": "About Us",
+      "url": "/about-us"
     }
   ]
 }

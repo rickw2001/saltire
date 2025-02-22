@@ -32,10 +32,7 @@ export default defineConfig({
     AutoImport({
       // import react components to use in mdx
       imports: [
-        "@/components/react/FeatherIcon.tsx",
-        "@/components/CounterComponent.astro",
         "@/components/core/Section.astro",
-        "@/components/react/Changelog.tsx",
         "@/components/Badge.astro",
       ],
     }),

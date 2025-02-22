@@ -8,15 +8,12 @@ const {
   button,
 } = Astro.props;
 ---
-
 <section class="px-5 py-20 xl:py-[120px]">
   <div class="container">
-    <div
-      class="bg-surface shadow row justify-center rounded-2xl px-[30px] pb-[75px] pt-16"
-    >
-      <div class="lg:col-11">
-        <div class="row">
-          <div class="lg:col-7">
+    <div class="">
+      <div class="lg:col-12 mx-auto">
+        <div class="mx-auto items-center justify-items-center">
+          <div class="lg:col-7 justify-items-center">
             <h2 class="h1 text-text" set:html={markdownify(title)}/>
             {button && <LinkButton {...button} addClasses="mt-8" />}
           </div>

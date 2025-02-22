@@ -42,12 +42,9 @@ const indexPage = defineCollection({
 
 // Export collections
 export const collections = {
-  about: pagesCollection,
-  changelog: pagesCollection,
-  contact: pagesCollection,
-  features: pagesCollection,
+  aboutus: pagesCollection,
+  ourwork: pagesCollection,
   homepage: indexPage,
-  pages: pagesCollection,
 };
 
 
