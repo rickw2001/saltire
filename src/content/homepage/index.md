@@ -4,26 +4,26 @@
 banner:
   title: '<span style="color: rgb(31, 9, 255);" class="text-primary text-accent text-shadow-[0px_1px_2px] shadow-accent/5"> Excavation <span class="text-accent">excellence</span> in the Gold Coast and beyond...</span>'
   title_size: "text-4xl md:text-6xl"
-  content: "<strong>We are a fully licensed demolition contractor located on the Gold Coast, QLD. We also carry out bulk earthworks, site cuts, final trim and drainages works. We pride ourselves on providing a professional and reliable service to all our clients.</strong>"  
+  content: "<strong>Fully Licensed Demolition Contractor servicing South East Queensland and Northern NSW - Shaping Queensland one bucket at a time. Let’s Dig.</strong>"  
   image: /images/se/logo-no-text.png  
 
 sections:
-  - title: Success begins with a <span class="text-accent">solid foundation</span>
-    content: "Gound clearance, excavation, and earthmoving are the first steps in any construction project. We have the experience and equipment to get the job done right the first time. Our team of professionals will work with you to ensure your project is completed on time and within budget."
+  - title: At <span class="text-accent">Saltire</span>, we pride ourselves on hard work.
+    content: "We have extensive experience including earthworks, site cuts, final trim, drainage. Also working with contaminated materials such as asbestos. A successful project starts with a professional demolition. Saltire do it best. Safely demolished, carefully separated materials, environmentally aware. We recycle where we can to keep tip waste to a minimum. Saltire will work seamlessly with you to ensure your project is completed in time."
     image: /images/se/success-foundation.webp
 
   - title: <span class="text-accent">Comprehensive</span> Earthworks Services
-    content: We understand that every project is unique, which is why we offer a wide range of earthworks services to meet your specific needs. From site preparation to trenching and backfilling, we have the expertise to handle any job, big or small.
+    content: We understand after the initial demolition is finalised, it can be painful to further organise more machinery on site to cut if needed. We have highly experienced final trim operators who will work with you.
     image: /images/se/earthworks.webp
 
-  - title: Plant for <span class="text-accent">any job</span>
-    content: We have plant and equipment to handle any job, big or small. Our fleet of excavators, bobcats, and trucks are well-maintained and operated by experienced professionals. Contact us today to learn more about our plant hire services.
+  - title: <span class="text-accent">Dry Hire</span> - Plant Equipment
+    content: We have a small amount of machinery for dry hire starting at $350 per day.<br /><ul style="list-style:inside;"><li>1.7t</li><li>3.5t</li><li>5t</li><li>13.5t</li><li>20t</li></ul><br />Please contact us for more information.
     image: /images/se/digger.webp
 
 ##key features
 features:
   title: <span class="text-accent">Core</span> Services
-  description: "At our core we are a team of professionals with over 20 years of experience in the construction industry. We pride ourselves on providing a professional and reliable service to all our clients. Our core services include:"
+  description: ""
   feature_list:
     - icon: "eye"  #icon package react-feather-icon [https://feathericons.com/]
       title: Earthworks
@@ -41,7 +41,7 @@ features:
 #testimonial
 testimonial:
   title: Why <span class="text-accent">choose us</span>?
-  description: "Because every construction project deserves a solid foundation. Here's what our satisfied customers have to say about our services..."
+  description: ""
   testimonial_list:
     - author: Jhon Doe
       organization: Example Corp
